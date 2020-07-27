@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERO SHOP</title>
+    <!--Connect fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,500,600,700,800&display=swap&subset=tamil,vietnamese" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Connect fontsawasome-->
+    <script src="https://kit.fontawesome.com/052878b521.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!--Start preloader-->
+
+<div class="preloader">
+  <div class="preloader__row">
+    <div class="preloader__item"></div>
+    <div class="preloader__item"></div>
+  </div>
+</div>
+
+<!--End preloader-->
+
+
+<!--Start navbar-->
+
+<div class="container-fluid" id="first-c" style="margin-top: -10%;">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html" style="color: rgb(142, 34, 34);">ZFARE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+      
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+          <form class="form-inline">
+            <ul class="navbar" style="justify-content: center; width: 100%;">
+                <li class="navbar">
+                    <a class="navbar" href="index.html">HOME</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar" href="about.html">ABOUT</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar" href="track.html">TRACK</a>
+                </li>
+            </ul>
+          </form>
+        </div>
+      </nav>
+    </div>
+</div>
+
+<!--End navbar-->
+
+
+<div id="products" class="container animated fadeInRightBig" style="margin-top: 10%;">
+    <div class="container" style="padding: 10%;">
+        <div class="col-12">
+            <div class="row justify-content-center text-center" id="mag-faq">
+                <div class="col-lg-12 ">
+                    <div class="inst">
+                        <i class="fas fa-mail-bulk fa-2x">
+                            <div class="circle-about">ABOUT US</div>
+                        </i>
+                        <p class="about-p">About our company: we are located in China, the province of Wuhan, named after the one where the first outbreak of the epidemic began.
+                            After the pandemic left our province, all production and normal life of people was adjusted in a short time for quick "inclusion in the work",
+                            because we have one of the factories for the production of medical masks and respirators.
+                            We are a subsidiary of the plant, created to provide assistance at the non-state level to
+                            fellow Europeans in the preparation of personal protective equipment during the pandemic.
+                            Your parcel will be sent directly from us to Your address.
+                            On the date of delivery: After placing and paying for the order, we have 24 hours to send it to You,
+                            otherwise the order will be canceled and a refund will be made. We usually ship orders twice a day: at 10 am and 10 PM.
+                            Your order will be very fast, because we cooperate with aliexpress delivery and can send a parcel to any country in the world
+                            on the day of order. Usually the delivery time takes up to a week, on average from 3 to 5 days.
+                            About order size: If you want to order more than a thousand pieces per order, it is not possible to do so.
+                            After the introduction of certain rules in Wuhan province, we can not export personal protective equipment
+                            in the amount of more than 1000 pieces in one parcel, so You can make several orders to the same address and we will send You your parcels.</p>            
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End faq-->
+
+
+
+<!--Start footer-->
+
+<div class="container-fluid" style="background: #272727; padding: 1%;">
+    <div class="container">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 style="color: #d6d6d6;">
+                       <span style="color: rgb(142, 34, 34);"> ZEROSHOP </span>
+                        © All rights reserved
+                    </h2> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End footer-->
+
+<script>
+    //preloader
+  window.onload = function () {
+    document.body.classList.add('loaded');
+  }
+
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+
+  }
+  //end preloader
+    </script>
+
+
+    <!--Connect JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
